@@ -7,7 +7,10 @@ def second_challenge
   }
 
   #code your solution here!
+output=[]
 
-  
-
+  groceries.each do |type, item|
+    output << item
+  end
+output.flatten
 end
