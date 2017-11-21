@@ -18,9 +18,9 @@ def first_challenge
   #your code here
   contacts.each do |name,attribute|
     attribute.each do |key,value|
-      if key==favorite_icecream_flavors
+      if key==favorite_icecream_flavors:
         if value.include?("strawberry")
-          value.delete("strawberry")
+          value = value.delete("strawberry")
         end
       end
     end
